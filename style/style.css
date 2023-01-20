@@ -85,7 +85,8 @@ header {
 .strike-through {
   position: absolute;
   width: 0;
-  transition: width 500ms ease-in-out;
+  height: 0;
+  transition: width, height 500ms ease-in-out;
 }
 
 .diagonal {
