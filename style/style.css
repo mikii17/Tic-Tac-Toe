@@ -58,6 +58,7 @@ header {
 .status {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  gap: 1rem;
 }
 .player-status p:first-child {
   padding-block: 1rem;
