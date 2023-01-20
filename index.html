@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./js/index.js"></script>
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tic-<span class="yellow">Tac</span>-Toe</h1>
+    </header>
+    <div class="result" id="result">
+      <p id="winner"></p>
+    </div>
+    <div class="box-container" id="box-container">
+      <div class="box">
+        <div class="box-item top left" id="top-left"></div>
+        <div class="box-item top mid" id="top-middle"></div>
+        <div class="box-item top right" id="top-right"></div>
+        <div class="box-item middle left" id="middle-left"></div>
+        <div class="box-item middle mid" id="middle-middle"></div>
+        <div class="box-item middle right" id="middle-right"></div>
+        <div class="box-item bottom left" id="bottom-left"></div>
+        <div class="box-item bottom mid" id="bottom-middle"></div>
+        <div class="box-item bottom right" id="bottom-right"></div>
+      </div>
+      <div class="strike-through" id="strike-through"></div>
+    </div>
+    <div class="player-status">
+      <div class="status active" id="player1">
+        <p class="heading">Player 1(X)</p>
+        <p class="value" id="player1-value">0</p>
+      </div>
+      <div class="status" id="tie">
+        <p class="heading">Tie</p>
+        <p class="value" id="tie-value">0</p>
+      </div>
+      <div class="status" id="player2">
+        <p class="heading">Player 2(O)</p>
+        <p class="value" id="player2-value">0</p>
+      </div>
+    </div>
+  </body>
+</html>
